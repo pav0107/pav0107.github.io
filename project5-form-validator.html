@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Pav Rao – Form-validator</title>
+		<title>Pav Rao – Form validator</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -41,14 +41,26 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Form-validator</h1>
+									<h1>Form validator</h1>
 								</header>
 
 								<!-- Text stuff -->
 									<h2>About</h2>
 									<p>
+										This is a simple form validator. I set up the following logic:
+										<br>
+										<ul>
+											<li>The username must be between 3 and 15 characters.</li>
+											<li>The email must be of a valid format (I used a regular expression rather than type="email" in the HTML so I could get a custom error message).</li>
+											<li>The password should contain at least 8 characters, 1 capital letter, 1 number and 1 special character (I used a regular expression here too, again, so I could use a custom error message)</li>
+											<li>The password needs to be confirmed.</li>
+										</ul>
 
-									This project uses JavaScript to create a simple form-validator<br>
+										<br>
+										I've shown errors in any of the above by using a small error message below the relevant box and outlining the box in red.
+										<br>
+										Boxes filled in correctly are outlined in green.<br>
+
 									To try it out for yourself, <a href="https://pav0107.github.io/form-validator/" target="_blank">click here</a>.<br><br>
 								
 									
@@ -66,8 +78,8 @@
 									<div class="box alt">
 										<div class="row gtr-50 gtr-uniform">
 											<div class="col-4"><span class="image fit"><img src="images/Form-validator/form-validator2.png" alt="" /></span></div>
-											<!-- <div class="col-4"><span class="image fit"><img src="images/Form-validator/form-validator3.png" alt="" /></span></div> -->
-											<!-- <div class="col-4"><span class="image fit"><img src="images/Form-validator/form-validator1.png alt="" /></span></div> -->
+											<div class="col-4"><span class="image fit"><img src="images/Form-validator/form-validator3.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/Form-validator/form-validator4.png" alt="" /></span></div>
 										</div>
 									</div>
 			
